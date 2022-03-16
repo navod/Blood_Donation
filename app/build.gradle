@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.blooddontation"
-        minSdkVersion 16
-        targetSdkVersion 31
+        minSdkVersion 21
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         multiDexEnabled true

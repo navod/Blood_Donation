@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.blooddontation">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BloodDontation">
-        <activity android:name=".DonnorRegistrationActivity"></activity>
+        <activity android:name=".RecipeintRegistrationActivity"></activity>
+        <activity android:name=".DonnorRegistrationActivity" />
         <activity android:name=".SelectRegistrationActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreenActivity">
