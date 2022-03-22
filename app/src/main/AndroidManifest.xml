@@ -3,6 +3,8 @@
     package="com.example.blooddontation">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BloodDontation">
-        <activity android:name=".RecipeintRegistrationActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RecipeintRegistrationActivity" />
         <activity android:name=".DonnorRegistrationActivity" />
         <activity android:name=".SelectRegistrationActivity" />
         <activity android:name=".LoginActivity" />

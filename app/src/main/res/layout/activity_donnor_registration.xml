@@ -59,13 +59,13 @@ android:orientation="vertical"
                 android:layout_marginBottom="20dp"
                 android:layout_height="wrap_content">
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    app:civ_border_width="2dp"
-                    app:civ_border_color="#FF000000"
-                    android:src="@drawable/user"/>
+                    android:src="@drawable/user"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/profile_image"/>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
