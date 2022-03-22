@@ -24,6 +24,7 @@ android:orientation="vertical"
             android:layout_marginTop="10dp"
             android:orientation="vertical"
             android:padding="20dp"
+            android:background="@color/white"
             >
             <ImageView
                 android:layout_width="150dp"
@@ -130,17 +131,18 @@ android:orientation="vertical"
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Spinner
-                    android:gravity="center"
-                    android:layout_gravity="center"
                     android:id="@+id/bloodGroupSpinner"
-                    android:background="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
                     android:layout_marginLeft="9dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:entries="@array/bloodGroups"
-                    android:layout_marginStart="9dp" />
+                    android:background="@color/black"
+                    android:padding="5dp"
+                    android:gravity="center" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
